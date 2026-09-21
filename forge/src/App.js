@@ -1,5 +1,7 @@
 import ScholarForgeLayout from "./ScholarForgeLayout";
+import StartCoding from "./compon/StartCode";
 import "./ScholarForgeLayout.css";
+import LearnMore from "./compon/LearnMore";
 
 export default function Home() {
   return (
@@ -26,13 +28,13 @@ export default function Home() {
         <div className="brand-card">
           <h4>MentorBridge</h4>
           <p>Connecting learners with expert mentors for real-world growth.</p>
-          <button>Learn More</button>
+         <LearnMore/>
         </div>
 
         <div className="brand-card">
           <h4>CodeClimb</h4>
           <p>Helping developers climb from fundamentals to advanced mastery.</p>
-          <button>Start Coding</button>
+          <StartCoding/>
         </div>
       </section>
 
